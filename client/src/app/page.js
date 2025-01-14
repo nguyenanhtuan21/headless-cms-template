@@ -1,7 +1,7 @@
 // import Image from "next/image";
-import Header from '@/components/common/Header/Header';
-import Footer from '@/components/common/Footer/Footer';
 import MainLayout from '@/components/layout/MainLayout';
+import { DefaultSeo } from 'next-seo';
+import defaultSEOConfig from '../../next-seo.config';
 
 export default function Home() {
   return (
