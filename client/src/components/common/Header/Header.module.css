@@ -1,0 +1,14 @@
+.menuItemDropdown {
+    position: relative;
+}
+.menuItemDropdown:before {
+    position: absolute;
+    content: url(/assets/images/common/ic-arrow-down.svg);
+    top: 0;
+    left: 0;
+    width: 14px;
+    height: 14px;
+}
+.test {
+    background-color: red;
+}
