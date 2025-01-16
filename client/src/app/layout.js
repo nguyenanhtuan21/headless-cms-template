@@ -1,6 +1,7 @@
 
 import "./globals.css"; 
 import '../styles/shared.module.css'; 
+// import GTM from "./GTM"; 
  
 
 export const metadata = {  
@@ -27,11 +28,12 @@ export const metadata = {
     }, 
 };  
 
-export default function RootLayout({ children }) {  
+export default function RootLayout({ children }) { 
   return (  
     <html lang="vi">  
       <body>  
         {children}  
+        {/* <GTM /> */}
       </body>  
     </html>  
   );  

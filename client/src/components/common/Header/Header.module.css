@@ -1,14 +1,33 @@
-.menuItemDropdown {
-    position: relative;
+.menu-item-dropdown {
+    position: relative; 
 }
-.menuItemDropdown:before {
+.menu-item-dropdown:before {
     position: absolute;
     content: url(/assets/images/common/ic-arrow-down.svg);
-    top: 0;
-    left: 0;
+    top: 2px;
+    right: -3px;
     width: 14px;
     height: 14px;
 }
 .test {
     background-color: red;
+}
+#MenuTrial {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    background-color: #2680eb;
+    padding: 10px 15px;
+    color: #fff;
+    border-radius: 4px;
+}
+#MenuLogin {
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+    border: solid 1px #2680eb;
+    margin: 10px 0;
+    padding: 9px 15px;
+    color: #2680eb;
+    border-radius: 4px;
 }
