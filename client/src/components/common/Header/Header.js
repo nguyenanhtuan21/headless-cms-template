@@ -11,22 +11,22 @@ export default function Header() {
                 </div>
                 <ul className="menu-list flex justify-center items-center w-full leading-[60px] height-[60px]">
                     <li className={`menu-item ${styles['menu-item-dropdown']}`} >
-                        <a href="#product" className="menu-link px-[13px] h-[60px] leading-[60px] block">Sản phẩm</a>
+                        <a href="/category/5/beatae" className="menu-link px-[13px] h-[60px] leading-[60px] block">Sản phẩm</a>
                     </li>
                     <li className={`menu-item ${styles['menu-item-dropdown']}`}>
-                        <a href="#product" className="menu-link px-[13px] h-[60px] leading-[60px] block">Giải pháp</a>
+                        <a href="/category/4/dolorem" className="menu-link px-[13px] h-[60px] leading-[60px] block">Giải pháp</a>
                     </li>
                     <li className="menu-item">
-                        <a href="#product" className="menu-link px-[13px] h-[60px] leading-[60px] block">Khách hàng</a>
+                        <a href="/category/2/dolores" className="menu-link px-[13px] h-[60px] leading-[60px] block">Khách hàng</a>
                     </li>
                     <li className={`menu-item ${styles['menu-item-dropdown']}`}>
-                        <a href="#product" className="menu-link px-[13px] h-[60px] leading-[60px] block">Kiến thức</a>
+                        <a href="/category/6/et" className="menu-link px-[13px] h-[60px] leading-[60px] block">Kiến thức</a>
                     </li>
                     <li className={`menu-item ${styles['menu-item-dropdown']}`}>
-                        <a href="#product" className="menu-link px-[13px] h-[60px] leading-[60px] block">Hỗ trợ</a>
+                        <a href="/category/3/saepe" className="menu-link px-[13px] h-[60px] leading-[60px] block">Hỗ trợ</a>
                     </li>
                     <li className={`menu-item ${styles['menu-item-dropdown']}`}>
-                        <a href="#product" className="menu-link px-[13px] h-[60px] leading-[60px] block">Công ty</a>
+                        <a href="/category/1/Uncategorized" className="menu-link px-[13px] h-[60px] leading-[60px] block">Công ty</a>
                     </li>
                     <li className="menu-item py=[6px] px-[13px] h-[60px] leading-[60px] block">
                         <a href="tel:0904885833" className="leading-[24px] text-primary-home flex justify-center items-center flex-col align-center h-full">

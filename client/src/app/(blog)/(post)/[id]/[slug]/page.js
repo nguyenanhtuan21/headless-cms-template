@@ -1,4 +1,5 @@
 // app/[id]/[slug]/page.js  
+import MainLayout from '@/components/layout/MainLayout';
 import { notFound } from 'next/navigation';  
 import { fetchAPI } from '@/services/wordpress/wordpress';  
 
@@ -44,6 +45,7 @@ export default async function PostPage({ params }) {
     }  
 
     return (  
+      <MainLayout>
       <article className="max-w-4xl mx-auto py-8">  
         <h1 className="text-4xl font-bold mb-4">  
           {post.title.rendered}  
@@ -63,7 +65,8 @@ export default async function PostPage({ params }) {
           className="prose prose-lg max-w-none"  
           dangerouslySetInnerHTML={{ __html: post.content.rendered }}  
         />  
-      </article>  
+      </article> 
+      </MainLayout>
     );  
   } catch (error) {  
     notFound();  
